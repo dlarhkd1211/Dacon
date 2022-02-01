@@ -14,7 +14,7 @@ train데이터 및 test데이터 총합 2,700개의 집값 데이터가 주어�
 ### Submission Record
 -----
 
-| Day |    Model                                   | Score        | Rank                                      | Link        |
-| :---------:  | :-----------:                                | :-------------------: | :-------------------:                         |  -------------------: |
-| 1             | stacked_pred*0.70 + xgb_pred*0.15 + lgb_pred*0.15              | 0.095083712                | 31           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/House_Predict/day1_submission_complete/stack_submission.csv)       |
-| 1             | stacked_pred*0.40 + xgb_pred*0.3 + lgb_pred*0.3               | 0.0949701787              | 27 |   [Link](https://github.com/dlarhkd1211/Dacon/blob/master/House_Predict/day1_submission_complete/stack1_submission.csv)|
+| Day |    Model                                   | Score        | Rank                                      | Link        | Best |
+| :---------:  | :-----------:                                | :-------------------: | :-------------------:                         |  -------------------: | :-------------------: |
+| 1             | stacked_pred*0.70 + xgb_pred*0.15 + lgb_pred*0.15              | 0.095083712                | 31           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/House_Predict/day1_submission_complete/stack_submission.csv)       | |
+| 1             | stacked_pred*0.40 + xgb_pred*0.3 + lgb_pred*0.3               | 0.0949701787              | 27 |   [Link](https://github.com/dlarhkd1211/Dacon/blob/master/House_Predict/day1_submission_complete/stack1_submission.csv)| ✔ |

@@ -1,6 +1,6 @@
 ## 데이콘 베이직 Basic 
 
-Competition : [집값 예측 경진대회](https://dacon.io/competitions/official/235869/leaderboard?selected=public)
+Competition : [집값 예측 경진대회](https://dacon.io/competitions/official/235869/overview/description)
 
 ###  배경
 

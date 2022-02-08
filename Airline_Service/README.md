@@ -1,6 +1,6 @@
 ## 데이콘 베이직 Basic 
 
-Competition : [집값 예측 경진대회](https://dacon.io/competitions/official/235871/overview/description)
+Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/competitions/official/235871/overview/description)
 
 ###  배경
 

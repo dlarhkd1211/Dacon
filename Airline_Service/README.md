@@ -16,5 +16,8 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | Day |    Model                                   | Score        | Rank                                      | Link        | Best |
 | :---------:  | :-----------:                                | :-------------------: | :-------------------:                         |  -------------------: | :-------------------: |
 | 1             | stacked_pred*0.2 + xgb_pred*0.2 + lgb_pred*0.3 + cat_pred * 0.3              | 0.552           | 58           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day1_submission/stack_submission.csv)       | |
-| 1             | xgb_pred            |0.553           | 58 |   [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day1_submission/xgb_submission.csv)| ✔ |
+| 1             | xgb_pred            |0.553           | 58 |   [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day1_submission/xgb_submission.csv)|  |
 ||첫날 제출한 코드는 전처리 실수로 잘못된 예측이 진행되었음.||||
+| 2             | stacked_pred*0.2 + xgb_pred*0.2 + lgb_pred*0.3 + cat_pred * 0.3              | 0.898           | 73           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day2_submission/stack_submission.csv)       |✔ |
+| 2            |lgb_pred            | 0.883           | 73           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day2_submission/lgb_submission.csv)       | |
+| 2             |cat_pred           | 0.893           | 73           |  [Link](https://github.com/dlarhkd1211/Dacon/blob/master/Airline_Service/day2_submission/cat_submission.csv)       | |

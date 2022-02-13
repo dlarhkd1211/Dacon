@@ -26,4 +26,4 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | 3             |cat_pred           | 0.932          | 42           |  ✔ |
 | 4             | stacked_pred*0.2 + xgb_pred*0.1 + lgb_pred*0.2 + cat_pred * 0.5              | 0.931           | -           |   |
 | 4            |xgb_pred            | 0.92           | -           |  |
-||score 0에 대한 처리, 모델 Random Search 를 진행해야 더 ||||
+||score 0에 대한 처리, 모델 Random Search 진행  ||||

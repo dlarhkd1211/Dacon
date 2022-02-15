@@ -27,3 +27,7 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | 4             | stacked_pred*0.2 + xgb_pred*0.1 + lgb_pred*0.2 + cat_pred * 0.5              | 0.931           | -           |   |
 | 4            |xgb_pred            | 0.92           | -           |  |
 ||score 0에 대한 처리, 모델 Random Search 진행 예정 ||||
+| 5             | stacked_pred*0.2 + xgb_pred*0.2 + lgb_pred*0.3 + cat_pred * 0.3 + MinMaxScaler              | 0.91           | -           |   |
+| 5            |cat_pred + MinMaxScaler            | 0.915           | -           |  |
+| 5            |cat_pred + StandardScaler           | 0.93           | -           |  |
+||score 0에 대한 처리, Scale data처리 진행, Random Search 진행 예정 ||||

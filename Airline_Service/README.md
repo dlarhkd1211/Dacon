@@ -33,3 +33,4 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 ||score 0에 대한 처리, Scale data처리 진행, Random Search 진행 예정 ||||
 | 6            |cat_pred + StandardScaler + Random Search            | 0.922           | -           |  |
 | 6            |cat_pred + StandardScaler + Age not encoding          | 0.925           | -           |  |
+| 6            |cat_pred + StandardScaler + Age not encoding + Feature Importance         | 0.905           | -           |  |

@@ -37,4 +37,4 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | 7            |cat_pred + Feature Selection + Zero encoding(zero여부)       | 0.934           | 66           |✔   |
 | 7            |cat_pred + Feature Selection + Zero One Hot Encoding      | 0.927           | -           |   |
 | 7            |cat_pred + Feature Selection        | 0.934           | -           |   |
-
+| Private          |cat_pred + Feature Selection + Zero encoding(zero여부)       | 0.937           | 65           |   |

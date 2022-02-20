@@ -23,7 +23,7 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | 2             |cat_pred           | 0.893           | 73           |  |
 | 3             | stacked_pred*0.1 + xgb_pred*0.3 + lgb_pred*0.3 + cat_pred * 0.3              | 0.925           | 87           |   |
 | 3            |lgb_pred            | 0.924           | 87           |  |
-| 3             |cat_pred           | 0.932          | 42           |  ✔ |
+| 3             |cat_pred           | 0.932          | 42           |  |
 | 4             | stacked_pred*0.2 + xgb_pred*0.1 + lgb_pred*0.2 + cat_pred * 0.5              | 0.931           | -           |   |
 | 4            |xgb_pred            | 0.92           | -           |  |
 ||score 0에 대한 처리, 모델 Random Search 진행 예정 ||||
@@ -31,3 +31,10 @@ Competition : [항공사 고객 만족도 예측 경진대회](https://dacon.io/
 | 5            |cat_pred + MinMaxScaler            | 0.915           | -           |  |
 | 5            |cat_pred + StandardScaler           | 0.93           | -           |  |
 ||score 0에 대한 처리, Scale data처리 진행, Random Search 진행 예정 ||||
+| 6            |cat_pred + StandardScaler + Random Search            | 0.922           | -           |  |
+| 6            |cat_pred + StandardScaler + Age not encoding          | 0.925           | -           |  |
+| 6            |cat_pred + StandardScaler + Age not encoding + Feature Importance         | 0.905           | -           |  |
+| 7            |cat_pred + Feature Selection + Zero encoding(zero여부)       | 0.934           | 66           |✔   |
+| 7            |cat_pred + Feature Selection + Zero One Hot Encoding      | 0.927           | -           |   |
+| 7            |cat_pred + Feature Selection        | 0.934           | -           |   |
+| Private          |cat_pred + Feature Selection + Zero encoding(zero여부)       | 0.937           | 65           |   |

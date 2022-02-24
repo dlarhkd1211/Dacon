@@ -16,4 +16,7 @@ Competition : [사물 이미지 분류 경진대회](https://dacon.io/competitio
 | Day |    Model                                   | Score        | Rank                                      | Best |
 | :---------:  | :-----------:                                | :-------------------:  |  :-------------------: | :-------------------: |
 |1 |2conv*BN 2conv*BN MX 3conv*BN 3conv*BN MX  | 0.7612 |  4 | |
-|1 |2conv*BN*MX x 4 | 0.776 |  3 |✔ |
+|1 |2conv*BN*MX x 4 | 0.776 |  3 | |
+|2 |conv*BN*MX x 5 | 0.7834 |  26 |✔ |
+|2 |conv*BN*MX x 5 | 0.7668 |  - | |
+|2 |conv*BN*MX x 5 | 0.7662 |  - | |
